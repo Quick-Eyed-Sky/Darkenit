@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Darken It</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="mark" aria-hidden="true">◐</div>
+      <div><h1>Darken It</h1><p id="site">Current site</p></div>
+    </header>
+    <section class="control">
+      <div class="row"><label for="level" data-i18n="dimmingLevel">Dimming level</label><output id="value">35%</output></div>
+      <input id="level" type="range" min="0" max="100" step="1" value="35" aria-label="Dimming level" data-i18n-aria="dimmingLevel">
+      <div class="scale"><span data-i18n="normal">Normal</span><span data-i18n="veryDim">Very dim</span></div>
+      <div class="preview-wrap"><div class="preview" id="preview" aria-label="Preview" data-i18n-aria="preview"><span>Aa</span></div><span data-i18n="preview">Preview</span></div>
+    </section>
+    <label class="toggle">
+      <span><strong data-i18n="enableOnThisSite">Enable on this site</strong><small data-i18n="settingSaved">Setting saved for this website</small></span>
+      <input id="enabled" type="checkbox"><i aria-hidden="true"></i>
+    </label>
+    <p class="hint" data-i18n="rightClickHint">Right-click the page and choose “Darken it” to turn the effect on or off.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

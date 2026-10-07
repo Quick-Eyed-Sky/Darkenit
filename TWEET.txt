@@ -1,0 +1,1 @@
+Too-bright website? Darken It lets you dim each site to your liking, remembers your setting, and adds a right-click toggle. The interface follows your Chrome language (English or French). Free, with settings stored on your device: https://github.com/Quick-Eyed-Sky/Darkenit

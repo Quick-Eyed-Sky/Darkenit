@@ -1,0 +1,50 @@
+{
+  "extensionDescription": {
+    "message": "Assombrissez les sites trop lumineux et mémorisez un réglage pour chacun.",
+    "description": "Courte description affichée dans Chrome."
+  },
+  "actionTitle": {
+    "message": "Darken It",
+    "description": "Info-bulle du bouton dans la barre d’outils."
+  },
+  "contextMenuTitle": {
+    "message": "Assombrir la page",
+    "description": "Commande du menu clic droit qui active ou désactive l’assombrissement de ce site."
+  },
+  "currentSite": {
+    "message": "Site actuel",
+    "description": "Indique le site actuellement ouvert dans la fenêtre de l’extension."
+  },
+  "unsupportedPage": {
+    "message": "Cette page n’est pas compatible",
+    "description": "Affiché lorsque Chrome interdit aux extensions d’agir sur la page actuelle."
+  },
+  "dimmingLevel": {
+    "message": "Niveau d’assombrissement",
+    "description": "Libellé du curseur de réglage."
+  },
+  "normal": {
+    "message": "Normal",
+    "description": "Extrémité du curseur sans assombrissement."
+  },
+  "veryDim": {
+    "message": "Très sombre",
+    "description": "Extrémité du curseur avec l’assombrissement maximal."
+  },
+  "preview": {
+    "message": "Aperçu",
+    "description": "Libellé accessible de l’aperçu du curseur."
+  },
+  "enableOnThisSite": {
+    "message": "Activer sur ce site",
+    "description": "Commande pour activer l’assombrissement sur le site actuel."
+  },
+  "settingSaved": {
+    "message": "Réglage mémorisé pour ce site",
+    "description": "Explique que le niveau choisi est conservé pour ce site."
+  },
+  "rightClickHint": {
+    "message": "Clic droit sur la page, puis choisissez « Assombrir la page » pour activer ou désactiver l’effet.",
+    "description": "Indication expliquant le raccourci du menu contextuel."
+  }
+}

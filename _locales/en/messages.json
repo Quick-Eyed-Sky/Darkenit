@@ -1,0 +1,50 @@
+{
+  "extensionDescription": {
+    "message": "Dim bright websites and save a separate setting for each site.",
+    "description": "Short description shown in Chrome."
+  },
+  "actionTitle": {
+    "message": "Darken It",
+    "description": "Tooltip shown for the toolbar button."
+  },
+  "contextMenuTitle": {
+    "message": "Darken it",
+    "description": "Right-click menu item that toggles dimming for this website."
+  },
+  "currentSite": {
+    "message": "Current site",
+    "description": "Popup label showing the website currently open."
+  },
+  "unsupportedPage": {
+    "message": "This page is not supported",
+    "description": "Shown when Chrome does not allow extensions to run on the current page."
+  },
+  "dimmingLevel": {
+    "message": "Dimming level",
+    "description": "Label for the dimming slider."
+  },
+  "normal": {
+    "message": "Normal",
+    "description": "Slider endpoint with no dimming."
+  },
+  "veryDim": {
+    "message": "Very dim",
+    "description": "Slider endpoint with maximum dimming."
+  },
+  "preview": {
+    "message": "Preview",
+    "description": "Accessible label for the slider preview."
+  },
+  "enableOnThisSite": {
+    "message": "Enable on this site",
+    "description": "Toggle label for enabling dimming on the current website."
+  },
+  "settingSaved": {
+    "message": "Setting saved for this website",
+    "description": "Explains that the chosen level is remembered for this website."
+  },
+  "rightClickHint": {
+    "message": "Right-click the page and choose “Darken it” to turn the effect on or off.",
+    "description": "Hint explaining the right-click shortcut."
+  }
+}
